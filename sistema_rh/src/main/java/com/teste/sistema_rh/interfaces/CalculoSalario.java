@@ -1,5 +1,8 @@
 package com.teste.sistema_rh.interfaces;
 
-public class CalculoSalario {
-  double calcularSalario ();  
+public interface CalculoSalario {
+  void calculaFGTS ();
+  void calculaINSS ();
+  String calcula13 ();
+  void calculaFerias ();
 }
